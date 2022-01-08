@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: whitesmoke;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+
+
+
+nav{background-color: rgb(248, 248, 248) ;
+     text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+
+       
+} 
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #282829;
+
+}
+li {
+float: left;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 7px;
+text-decoration: none;
+
+}
+li a:hover {
+background-color: #474747;
+border: 2px solid red;
+}
+
+div{
+    margin: 40px;
+    text-align: left;
+    margin-top: 0px;
+   
+}
+
+div.MyDiv{
+text-align: left;
+color: rgb(0, 0, 0);
+margin-top: 0px;
+display: block;
+
+
+
+
+}
+div.tx{
+    text-align: justify;
+    margin : 10px 20px 10px 30px;
+    float: right;
+    display: flex;
+    line-height: 1.8;
+  
+}
+
+div.imagens{
+    text-align: center;
+    margin-top: 0px;
+    
+    
+}
+
+div.vacina{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 14px;
+    line-height: 1.8;
+    
+}
+img{
+    text-align: left;
+    display: inline-block;
+    margin-top: 0px;
+}
+img.contato{
+text-align: right;
+opacity: unset;
+}
+section{
+    display: block;
+    width: 100%;
+    text-align-last: center;
+}
+img{
+    text-align: left;
+    vertical-align: baseline;
+
+}
+h1{
+    text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+
+    
+    
+}
+#rodape {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+  }
+section.prevencao{
+    margin:auto;
+    
+}
+.tabela{
+    display: table;
+    
+}
+.Imagem{
+    display: table-cell;
+    float: right;
+    
+    
+}
+.Texto{
+
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 120px;
+    line-height: 1.8;
+
+}
+
+section.sobre{
+    margin:auto;
+  
+}
+.table{
+    display: table;
+    width: 100%;
+    height: 70px;
+}
+.imgg{
+    display: table-cell;
+    float: right;
+    border: 2px solid red;
+    
+    
+}
+.Text{
+
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 120px;
+    line-height: 1.8;
+   font-size: 17px;
+    
+}
+form{
+
+    width: 100%;
+    text-align: center;
+}
